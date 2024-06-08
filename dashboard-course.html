@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">	
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+	<link rel="stylesheet" class="js-glass-style" href="assets/css/glass.css" disabled>
+	<title> EduAI. | Halaman Pengguna </title>
+	<link rel="icon" href="assets/images/logo.png">
+</head>
+</head>
+
+<body>
+
+	<!-- page loader start -->
+	<div class="page-loader js-page-loader">
+		<div></div>
+	</div>
+	<!-- page loader end -->
+
+
+	<header class="header shadow">
+		<div class="container">
+			<div class="header-main d-flex justify-content-between align-items-center">
+				<div class="header-logo">
+					<a href="index.html"><span>Edu</span>AI.</a>
+				</div>
+				<button type="button" class="header-hamburger-btn js-header-menu-toggler">
+					<span></span>
+				</button>
+				<div class="header-backdrop js-header-backdrop"> </div>
+				<nav class="header-menu js-header-menu">
+					<button type="button" class="header-close-btn js-header-menu-toggler">
+						<i class="fas fa-times"></i>
+					</button>
+					<ul class="menu">
+						<li class="menu-item mx-lg-4"><a href="index.html">Beranda</a></li>
+						<li class="menu-item mx-lg-4"><a href="courses.html">Kursus</a></li>
+						<li class="menu-item mx-lg-4"><a href="contact.html">Kontak</a></li>
+						<div class="btn-group" role="group" style="left: -2.8rem;">
+							<a id="btnGroupDrop1" class="btn dropdown-toggle"
+								data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="assets/images/instructor/1.png" class="rounded-circle w-25" alt="...">
+							</a>
+							<ul class="dropdown-menu pink" aria-labelledby="btnGroupDrop1">
+								<li><a class="dropdown-item" href="index.html">Logout</a></li>
+							</ul>
+						</div>
+					</ul>
+					<!-- Avatar -->
+
+				</nav>
+
+			</div>
+		</div>
+	</header>
+
+
+
+	<div class="container mt-4 w-75">
+		<div class="d-flex align-items-start pt-3">
+			<nav>
+				<div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+						data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+						aria-selected="true">Dashboard</button>
+					<button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+						data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Kursus</button>
+					<button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+						data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+						aria-selected="false">Karir</button>
+				</div>
+
+			</nav>
+			<div class="tab-content mb-1" id="v-pills-tabContent">
+				<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+					<div class="mb-4 shadow">
+						<div class="card-body p-4">
+							<span class="fs-2">Selamat Datang</span>
+						</div>
+					</div>
+
+					<span class="fs-5 fw-bold">Kemampuan</span>
+					<div class="row mt-3">
+						<div class="col-sm-6 col-md-6">
+							<div class="mb-4 shadow">
+								<div class="card-body p-4 d-lg-flex justify-content-lg-between">
+									<span class="fs-6"> Pemrograman Web </span>
+									<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+										height="30" viewBox="0 0 48 48" class="float-end">
+										<linearGradient id="SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1" x1="18.208"
+											x2="34.159" y1="2.413" y2="46.236" gradientUnits="userSpaceOnUse">
+											<stop offset="0" stop-color="#f09701"></stop>
+											<stop offset="1" stop-color="#e36001"></stop>
+										</linearGradient>
+										<path fill="url(#SNASnMitCxQrIYk4GDibta_v8RpPQUwv0N8_gr1)"
+											d="M7.192,7.176l2.627,29.77c0.109,1.237,0.97,2.28,2.164,2.621l10.643,3.041	c0.898,0.257,1.849,0.257,2.747,0l10.643-3.041c1.194-0.341,2.055-1.383,2.164-2.621l2.627-29.77C40.911,6.006,39.99,5,38.816,5	H9.184C8.01,5,7.089,6.006,7.192,7.176z">
+										</path>
+										<path fill="#f09601"
+											d="M24,8v31.9l9.876-2.822c0.797-0.228,1.371-0.924,1.443-1.749l2.286-26.242	C37.656,8.502,37.196,8,36.609,8H24z">
+										</path>
+										<path fill="#fff"
+											d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5L24,25z M32.9,17l0.3-4H24v4H32.9z">
+										</path>
+										<path fill="#d6e0e9"
+											d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z">
+										</path>
+										<path
+											d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M34.278,12H33.2H24h-9.1h-1.06l0.062,1.058l0.7,12L14.657,26h-0.032l0.078,1.073l0.4,5.5l0.049,0.668 l0.636,0.209l7.9,2.6L24,36.153l0.313-0.103l7.9-2.6l0.644-0.212l0.041-0.677l0.7-11.5L33.663,20H32.6H24h-3.672l-0.15-2H24h8.9 h0.928l0.069-0.925l0.3-4L34.278,12L34.278,12z M20.623,26H24h3.331l-0.185,2.769L24,29.843l-3.156-1.077l-0.148-1.846L20.623,26 L20.623,26z"
+											opacity=".05"></path>
+										<path
+											d="M33.2,13l-0.3,4H24h-4.9l0.3,4H24h8.6l-0.7,11.5L24,35.1l-7.9-2.6L15.7,27h4l0.2,2.5l4.1,1.4l4.1-1.4l0.3-4.5H24h-8.4 l-0.7-12H24H33.2 M33.739,12.5H33.2H24h-9.1h-0.53l0.031,0.529l0.7,12l0.027,0.471H15.6H24h3.866l-0.242,3.634L24,30.372 l-3.628-1.239l-0.174-2.173l-0.037-0.46H19.7h-4h-0.538l0.039,0.536l0.4,5.5l0.024,0.334l0.318,0.105l7.9,2.6L24,35.626 l0.156-0.051l7.9-2.6l0.322-0.106l0.021-0.339l0.7-11.5l0.032-0.53H32.6H24h-4.136l-0.225-3H24h8.9h0.464l0.035-0.463l0.3-4 L33.739,12.5L33.739,12.5z"
+											opacity=".07"></path>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-md-6">
+							<div class="mb-4 shadow">
+								<div class="card-body p-4 d-lg-flex justify-content-lg-between">
+									<span class="fs-6"> Virtual Reality </span>
+									<svg xmlns="http://www.w3.org/2000/svg" class="float-end" width="30" height="30"
+										viewBox="0 0 640 512">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M576 64H64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H184.4c24.2 0 46.4-13.7 57.2-35.4l32-64c8.8-17.5 26.7-28.6 46.3-28.6s37.5 11.1 46.3 28.6l32 64c10.8 21.7 33 35.4 57.2 35.4H576c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64zM96 240a64 64 0 1 1 128 0A64 64 0 1 1 96 240zm384-64a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<span class="fs-5 fw-bold">Ditandai</span>
+					<div class="row mt-3">
+						<div class="col-sm-12">
+							<div class="mb-4 shadow">
+								<div class="card-body p-4">
+									<div class="row">
+										<div class="col-sm-6 text-center">
+											<img src="assets/images/courses/web-development/1.jpg" class="w-50">
+										</div>
+										<div class="col-sm-6 my-auto float-start margin-">
+											<span class="fs-6">Progres Web Development</span>
+											<div style="font-size: 11px;">2/7</div>
+											<div class="progress" style="height: 10px;">
+												<div class="progress-bar progress-bar-striped progress-bar-animated"
+													role="progressbar" aria-valuenow="75" aria-valuemin="0"
+													aria-valuemax="100" style="width: 25%; height: 10px;"></div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<span class="fs-5 fw-bold">Menyelesaikan Kursus</span>
+					<div class="row mt-3">
+						<div class="col-sm">
+							<div class="mb-4 shadow">
+								<div class="card-body py-2">
+									<div class="row">
+										<div class="col-sm my-auto">
+											<span class="py-3" style="font-size:14px">Pemrograman Dasar</span>
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="mb-1 mt-1 float-end" style="fill: gold;">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z" />
+											</svg> <br>
+
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-3 mb-3">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Web Developper</span> <br>
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-2 mb-2">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Beginner</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm">
+							<div class="mb-4 shadow">
+								<div class="card-body py-2">
+									<div class="row">
+										<div class="col-sm my-auto">
+											<span class="py-3" style="font-size:14px">Pemrograman Dasar</span>
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="mb-1 mt-1 float-end" style="fill: gold;">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z" />
+											</svg> <br>
+
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-3 mb-3">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Web Developper</span> <br>
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-2 mb-2">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Beginner</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm">
+							<div class="mb-4 shadow">
+								<div class="card-body py-2">
+									<div class="row">
+										<div class="col-sm my-auto">
+											<span class="py-3" style="font-size:14px">Pemrograman Dasar</span>
+											<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512" class="mb-1 mt-1 float-end" style="fill: gold;">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z" />
+											</svg> <br>
+
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-3 mb-3">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M255.03 261.65c6.25 6.25 16.38 6.25 22.63 0l11.31-11.31c6.25-6.25 6.25-16.38 0-22.63L253.25 192l35.71-35.72c6.25-6.25 6.25-16.38 0-22.63l-11.31-11.31c-6.25-6.25-16.38-6.25-22.63 0l-58.34 58.34c-6.25 6.25-6.25 16.38 0 22.63l58.35 58.34zm96.01-11.3l11.31 11.31c6.25 6.25 16.38 6.25 22.63 0l58.34-58.34c6.25-6.25 6.25-16.38 0-22.63l-58.34-58.34c-6.25-6.25-16.38-6.25-22.63 0l-11.31 11.31c-6.25 6.25-6.25 16.38 0 22.63L386.75 192l-35.71 35.72c-6.25 6.25-6.25 16.38 0 22.63zM624 416H381.54c-.74 19.81-14.71 32-32.74 32H288c-18.69 0-33.02-17.47-32.77-32H16c-8.8 0-16 7.2-16 16v16c0 35.2 28.8 64 64 64h512c35.2 0 64-28.8 64-64v-16c0-8.8-7.2-16-16-16zM576 48c0-26.4-21.6-48-48-48H112C85.6 0 64 21.6 64 48v336h512V48zm-64 272H128V64h384v256z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Web Developper</span> <br>
+
+											<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 640 512"
+												class="mt-2 mb-2">
+												<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+												<path
+													d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z" />
+											</svg>
+											<span class="ps-2" style="font-size:14px">Beginner</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+					<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+								aria-selected="true">Kursus Saya</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-home-tab" data-bs-toggle="pill"
+								data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+								aria-selected="true">Sertifikat Saya</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+							aria-labelledby="pills-home-tab">
+
+							<div class="row mt-3">
+								<h6 class="mb-3">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M216 288h-48c-8.84 0-16 7.16-16 16v192c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V304c0-8.84-7.16-16-16-16zM88 384H40c-8.84 0-16 7.16-16 16v96c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16v-96c0-8.84-7.16-16-16-16zm256-192h-48c-8.84 0-16 7.16-16 16v288c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V208c0-8.84-7.16-16-16-16zm128-96h-48c-8.84 0-16 7.16-16 16v384c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V112c0-8.84-7.16-16-16-16zM600 0h-48c-8.84 0-16 7.16-16 16v480c0 8.84 7.16 16 16 16h48c8.84 0 16-7.16 16-16V16c0-8.84-7.16-16-16-16z" />
+									</svg>
+									Level
+									<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512"
+										class="ps-4">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z" />
+									</svg>
+								</h6>
+								<h6 class="mb-3">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M96 64h448v352h64V40c0-22.06-17.94-40-40-40H72C49.94 0 32 17.94 32 40v376h64V64zm528 384H480v-64H288v64H16c-8.84 0-16 7.16-16 16v32c0 8.84 7.16 16 16 16h608c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16z" />
+									</svg>
+									Teknologi
+									<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512"
+										class="ps-4">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z" />
+									</svg>
+								</h6>
+								<h6 class="mb-3">
+									<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M552 64H448V24c0-13.3-10.7-24-24-24H152c-13.3 0-24 10.7-24 24v40H24C10.7 64 0 74.7 0 88v56c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h-48c-35.3 0-64 20.7-64 56v12c0 6.6 5.4 12 12 12h296c6.6 0 12-5.4 12-12v-12c0-35.3-28.7-56-64-56h-48v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88c0-13.3-10.7-24-24-24zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2c1 32.6 5.8 61.2 12.8 86.2-15.1-5.2-29.2-12.4-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8-12.5 9-26.7 16.2-41.8 21.4 7-25 11.8-53.6 12.8-86.2H512v16z" />
+									</svg>
+									Jenjang Karir
+									<svg xmlns="http://www.w3.org/2000/svg" height="0.8em" viewBox="0 0 448 512"
+										class="ps-4">
+										<!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+										<path
+											d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z" />
+									</svg>
+								</h6>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 col-lg-4">
+									<div class="courses-item">
+										<a href="" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/1.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">HTML untuk pemula</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-4">
+									<div class="courses-item">
+										<a href="" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/2.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">CSS untuk pemula</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-6 col-lg-4">
+									<div class="courses-item">
+										<a href="" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/4.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">PHP untuk pemula</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-6 col-lg-4">
+									<div class="courses-item">
+										<a href="" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/3.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">JavaScript untuk pemula</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-profile" role="tabpanel"
+							aria-labelledby="pills-profile-tab">Cek</div>
+					</div>
+				</div>
+
+				<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+					<div class="mb-4 shadow">
+						<div class="card-body p-4">
+							<span class="fs-2"> Jenjang Karir</span>
+						</div>
+					</div>
+
+					<div class="mb-4">
+						<div class="card-body shadow">
+							<span class="fs-5 fw-bold">Pemrograman Web</span>
+							<div class="row">
+								<div class="col">
+									<h6 class="mt-3 fs-6">4 / 7 Kursus</h6>
+									<div class="progress">
+										<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+									</div>
+								</div>
+								<div class="col my-auto px-auto text-end">
+									<button class="btn btn-outline-danger">Lanjut</button>
+								</div>
+							</div>
+
+							<div class="row justify-content-center mt-4">
+								<div class="col-md-12 col-lg-3">
+									<div class="courses-item">
+										<a href="course-details.html" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/1.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">HTML untuk pemula</h3>
+												<div class="instructor">
+													<img src="assets/images/logo.png" style="width: 22px;" alt="instructor img">
+													<span class="instructor-name">EduAI. Team</span>
+												</div>
+												<div class="rating">
+													<span class="average-rating">(4.5)</span>
+													<span class="average-stars">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star-half-alt"></i>
+													</span>
+													<span class="reviews">(230)</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-3">
+									<div class="courses-item">
+										<a href="course-details.html" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/2.jpg"
+														alt="course img">
+												</div>
+												<h3 class="title">CSS untuk pemula</h3>
+												<div class="instructor">
+													<img src="assets/images/logo.png" style="width: 22px;" alt="instructor img">
+													<span class="instructor-name">EduAI. Team</span>
+												</div>
+												<div class="rating">
+													<span class="average-rating">(4.5)</span>
+													<span class="average-stars">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star-half-alt"></i>
+													</span>
+													<span class="reviews">(230)</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-3">
+									<div class="courses-item">
+										<a href="course-details.html" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/1.jpg" alt="course img">
+												</div>
+												<h3 class="title">HTML untuk pemula</h3>
+												<div class="instructor">
+													<img src="assets/images/logo.png" style="width: 22px;" alt="instructor img">
+													<span class="instructor-name">EduAI. Team</span>
+												</div>
+												<div class="rating">
+													<span class="average-rating">(4.5)</span>
+													<span class="average-stars">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star-half-alt"></i>
+													</span>
+													<span class="reviews">(230)</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-12 col-lg-3">
+									<div class="courses-item">
+										<a href="course-details.html" class="link">
+											<div class="courses-item-inner">
+												<div class="img-box">
+													<img src="assets/images/courses/web-development/2.jpg" alt="course img">
+												</div>
+												<h3 class="title">CSS untuk pemula</h3>
+												<div class="instructor">
+													<img src="assets/images/logo.png" style="width: 22px;" alt="instructor img">
+													<span class="instructor-name">EduAI. Team</span>
+												</div>
+												<div class="rating">
+													<span class="average-rating">(4.5)</span>
+													<span class="average-stars">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star-half-alt"></i>
+													</span>
+													<span class="reviews">(230)</span>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Footer Start -->
+		<footer class="footer">
+			<div class="footer-top">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="col-sm-6 col-lg-4 d-flex justify-content-center">
+							<div class="footer-item">
+								<h3 class="footer-logo"><span>Edu</span>AI.</h3>
+								<ul>
+									<li><a href="index.html">Beranda</a></li>
+									<li><a href="courses.html">Kursus</a></li>
+									<li><a href="log-in.html">Akun</a></li>
+									<li><a href="contact.html">Kontak</a></li>	
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 d-flex justify-content-center">
+							<div class="footer-item">
+								<h3>Kursus</h3>
+								<ul>
+									<li><a href="#">HTML untuk pemula</a></li>
+									<li><a href="#">CSS untuk pemula</a></li>
+									<li><a href="#">JavaScript untuk pemula</a></li>
+									<li><a href="#">PHP untuk pemula</a></li>	
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 d-flex justify-content-center">
+							<div class="footer-item">
+								<h3>Sosial Media</h3>
+								<ul>
+									<li><a href="#"><i class="fab fa-facebook-f social-icon"></i> Facebook</a></li>
+									<li><a href="#"><i class="fab fa-twitter social-icon"></i> Twitter</a></li>
+									<li><a href="#"><i class="fab fa-instagram social-icon"></i> Instagram</a></li>
+									<li><a href="#"><i class="fab fa-youtube social-icon"></i> YouTube</a></li>
+									<li><a href="#"><i class="fab fa-linkedin-in social-icon"></i> Linkedin</a></li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<p class="m-0 py-4 text-center">Copyright &copy;2022 EduAI.</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Footer End -->
+
+	<!-- Style Switcher Start -->
+	<div class="style-switcher js-style-switcher">
+		<div class="style-switcher-toggler js-style-switcher-toggler">
+			<i class="fas fa-cog"></i>
+		</div>
+		<h3>Pengalih Gaya</h3>
+		<div class="style-switcher-item">
+			<p class="mb-2">Warna Tema</p>
+			<!-- Theme Colors -->
+			<div class="theme-colors js-theme-colors">
+				<button type="button" data-js-theme-color="color-1" class="js-theme-color-item color-1"></button>
+				<button type="button" data-js-theme-color="color-2" class="js-theme-color-item color-2"></button>
+				<button type="button" data-js-theme-color="color-3" class="js-theme-color-item color-3"></button>
+				<button type="button" data-js-theme-color="color-4" class="js-theme-color-item color-4"></button>
+				<button type="button" data-js-theme-color="color-5" class="js-theme-color-item color-5"></button>
+			</div>
+		</div>
+		<div class="style-switcher-item">
+			<div class="form-check form-switch">
+				<input class="form-check-input js-dark-mode" type="checkbox" id="dark-mode">
+				<label class="form-check-label" for="dark-mode">Mode Gelap</label>
+			</div>
+		</div>
+		<div class="style-switcher-item">
+			<div class="form-check form-switch">
+				<input class="form-check-input js-glass-effect" type="checkbox" id="glass-effect">
+				<label class="form-check-label" for="glass-effect">Efek Kaca</label>
+			</div>
+		</div>
+	</div>
+	<!-- Style Switcher End -->
+
+
+
+
+
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
